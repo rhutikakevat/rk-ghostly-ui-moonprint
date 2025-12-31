@@ -1,0 +1,219 @@
+:root {
+    --primary-color: rgb(147, 140, 140);
+    --secondary-color: rgb(179, 177, 177);
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: black;
+    padding: 0.5rem 0.9rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-non-bullet {
+    list-style-type: none;
+    padding-inline-start: 0px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    font-size: 80%
+}
+
+.list-inline-item {
+    display: inline;
+    padding: 0rem 0.4rem;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(233, 233, 235);
+}
+
+a:hover {
+    color: rgb(50, 221, 221);
+}
+
+.nav-social-links {
+    padding: 0rem 0.6rem;
+    font-size: 67%
+}
+
+.subscribe-btn {
+    background-color: black;
+    color: rgb(233, 233, 235);
+    border: 1px solid rgb(185, 185, 186);
+    padding: 3px 8px;
+    border-radius: 0.2rem;
+    font-size: x-small;
+    margin-left: 0.8rem;
+    box-shadow: 0px 0px 5px 0px lightgray;
+    cursor: pointer;
+}
+
+.subscribe-btn:hover {
+    background-color: aliceblue;
+    color: black;
+}
+
+.theme-style {
+    text-align: center;
+    padding: 3.85rem 0rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+    color: rgb(192, 192, 196);
+}
+
+.ghost-theme-img {
+    max-width: 15%;
+}
+
+.theme-style p {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+section {
+    padding: 1.5rem 1.5rem;
+}
+
+.welcome-section {
+    display: flex;
+    gap: 1rem;
+}
+
+.welcome-image {
+    height: 280px;
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+.welcome-div {
+    padding: 0.5rem 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.started-name {
+    margin-block-end: 0px;
+    color: rgb(30, 30, 214);
+    font-weight: 600;
+    font-size: 90%
+}
+
+.welcome-name {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+.welcome-text {
+    color: var(--primary-color);
+    font-family: serif;
+    font-size: 88%;
+    font-weight: 500;
+    padding: 0.5rem 0rem;
+}
+
+.small-logo {
+    height: 32px;
+    width: 32px;
+    max-width: 100%;
+    padding-top: 0.15rem;
+}
+
+.content-channel {
+    display: flex;
+    gap: 0.8rem;
+    padding-top: 0.6rem;
+}
+
+.content-channel-info {
+    font-size: x-small;
+}
+
+.content-channel-name {
+    font-weight: 600;
+}
+
+.content-channel-description {
+    color: var(--secondary-color);
+    font-weight: 500;
+    font-size: 92%;
+}
+
+hr {
+    border: 1px solid rgb(225, 224, 224);
+    margin: 0.5rem 1rem;
+}
+
+.row {
+    display: flex;
+    gap: 1rem;
+}
+
+.col {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.post-section {
+    margin: 0.5rem 0rem;
+}
+
+.ghost-image-post {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+.started-post-name {
+    margin-block-end: 0px;
+    color: rgb(43, 43, 182);
+    font-size: 75%;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.post-name {
+    margin-block-start: 10px;
+    margin-block-end: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 90%;
+}
+
+.post-text {
+    color: var(--primary-color);
+    font-size: 73%;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 0.3rem;
+    margin-right: 0.3rem;
+}
+
+.small-post-logo {
+    height: 30px;
+    width: 30px;
+    max-width: 100%;
+    padding-top: 0.15rem;
+}
+
+.writing-hand-image {
+    height: 15px;
+    width: 14px;
+    max-width: 100%;
+}
+
+.content-post-channel {
+    display: flex;
+    gap: 0.8rem;
+    padding-top: 0.6rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
