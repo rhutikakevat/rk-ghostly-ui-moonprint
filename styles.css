@@ -228,7 +228,7 @@ footer {
 
 .row-footer {
     display: flex;
-    gap: 8rem;
+    gap: 4rem;
     justify-content: center;
 }
 
@@ -253,7 +253,7 @@ footer {
     display: flex;
     padding: 0.7rem 0px;
     justify-content: space-between;
-    font-size:small
+    font-size: small
 }
 
 .footer-social-link {
@@ -262,4 +262,31 @@ footer {
     color: black;
     padding: 2px 4px;
     border-radius: 0.6rem;
+}
+
+@media (max-width:700px) {
+    .welcome-section {
+        flex-direction: column;
+    }
+
+    .row-footer {
+        flex-direction: column;
+    }
+
+    .navigation {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .row{
+        flex-direction: column;
+    }
+
+    .col{
+        margin-bottom: 1.5rem;
+    }
+
+    .welcome-image{
+        height: auto;
+    }
 }
